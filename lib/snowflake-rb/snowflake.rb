@@ -12,11 +12,11 @@ module Snowflake
       # 基准时间
       TWEPOCH = 1288834974657
       # 区域标志位数
-      REGION_ID_BITS = 3
+      REGION_ID_BITS = 5
       # 机器标识位数
-      WORKER_ID_BITS = 10
+      WORKER_ID_BITS = 5
       # 序列号识位数
-      SEQUENCE_BITS = 10
+      SEQUENCE_BITS = 12
       # 区域id最大值
       MAX_REGION_ID = -1 ^ (-1 << REGION_ID_BITS)
       # 机器id最大值
