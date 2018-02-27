@@ -10,7 +10,7 @@ module Snowflake
       class TimeMoveBackWardError < StandardError; end
 
       # 基准时间
-      TWEPOCH = 1462525962386
+      TWEPOCH = 1288834974657
       # 区域标志位数
       REGION_ID_BITS = 3
       # 机器标识位数
